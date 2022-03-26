@@ -1,84 +1,63 @@
-# <a id="top" />Название проекта
-
-![Картинка](Картинка-url)
+# <a id="top"></a>Лаборатория ИТМО Команда - 6
 
 ---
 
 ### Оглавление
 
 - [Описание](#description)
-- [Как использовать](#how-to-use)
+- [Команды](#team)
 - [Ссылки](#references)
-- [Лицензия](#license)
-- [Автор проекта](#author)
+- [Макет в Figma](#figma)
 
 ---
 
-## <a id="description" />Описание
+## <a id="description"></a>Описание
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aperiam, officiis excepturi explicabo possimus quos impedit quo tenetur harum praesentium sint vero deleniti, nemo ipsam perferendis doloribus voluptatem natus dolorum minus molestias hic! Inventore ullam labore quisquam numquam, totam esse!
+Лаборатория входит в состав Национального центра когнитивных разработок и специализируется на выполнении разных промышленных задач на основе больших данных.  
+Лендинг ориентирован на будущих студентов и его основная задача — привлечь новых студентов в магистратуру / аспирантуру.  
+Поэтому основная задача — интересно рассказать о Лаборатории.
 
 #### Технологии
 
 - HTML
 - CSS
-- JS
+- JavaScript
+- Webpack
 
 [Наверх](#top)
 
 ---
 
-## <a id="how-to-use" />Как использовать
+## <a id="team"></a>Команда
+
+- Иван Жук [GitHub](https://github.com/Zhukek)
+- Ренат Ибрагимов [GitHub](https://github.com/SmthOfValue)
+- Кирилл Черепанов [GitHub](https://github.com/insomniac-bear)
+- Мария Алемаскина [GitHub](https://github.com/Maria-Lem)
+- Евгений М [GitHub](https://github.com/harwUk-cedbyk-8qysze)
+- Андерй Колосов [GitHub](https://github.com/AndreiKolosov)
 
 #### Установка
 
-#### API ссылки
-
-```html
-<p>some code</p>
-```
+Чтобы развернуть проект на своей локальной машине, склонируйте репозиторий командой: <p>git clone</P>  
+Далее, необходимо инициализировать npm: <p>npm init</p> После, установить необходимые модули командой: <p>npm install</p>
 
 [Наверх](#top)
 
 ---
 
-## <a id="references" />Ссылки
+## <a id="references"></a>Ссылки
 
 [Наверх](#top)
 
 ---
 
-## <a id="license" />Лицензия
+## <a id="figma"></a>Макет в Figma
 
-MIT License
-
-Copyright (c) [2021] [Andrei Kolosov]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- [Ссылка на макет в Figma](https://www.figma.com/file/1V8lzi168fbxjb5cm5gVj0/PAGE-SG_ITMO?node-id=0%3A1)
+- [Ссылка на UI Kit](https://www.figma.com/file/1V8lzi168fbxjb5cm5gVj0/PAGE-SG_ITMO?node-id=1146%3A9181)
+- [Прототип от ИТМО (не используется в разработке)](https://www.figma.com/file/unDzc7eCe7ytCGqyDOIZcS/PAGE-SG?node-id=0%3A1)
 
 [Наверх](#top)
 
 ---
-
-## <a id="author" />Автор
-
-- [Telegram ](https://t.me/RustyVoid)
-- [Instagram](https://www.instagram.com/akolosof/)
-
-[Наверх](#top)
