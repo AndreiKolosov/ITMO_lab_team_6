@@ -1,0 +1,4 @@
+.header__list {
+  max-width: 825px;
+  display: flex;
+}

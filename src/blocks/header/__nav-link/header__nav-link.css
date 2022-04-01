@@ -1,0 +1,21 @@
+.header__nav-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  display: block;
+  width: 100px;
+  height: 44px;
+  display: grid;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header__nav-link:hover {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  border-bottom: 2px solid #009fac;
+}
