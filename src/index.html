@@ -14,16 +14,18 @@
 <body class="home">
   <header class="header">
     <div class="header__main-panel">
-      <img class="header__logo" src="#" alt="Логотип">
-      <ul class="header__menu list">
-        <li class="header__menu-item">О нас</li>
-        <li class="header__menu-item">Лаборатория</li>
-        <li class="header__menu-item">Проекты</li>
-        <li class="header__menu-item">Образование</li>
-        <li class="header__menu-item">Публикации</li>
-        <li class="header__menu-item">Команда</li>
-        <li class="header__menu-item">Связаться</li>
-      </ul>
+      <img class="header__logo" src="<%=require('./images/Logo_AI.svg')%>" alt="Логотип ИТМО">
+      <nav>
+        <ul class="header__list list">
+          <li class="header__nav-item"><a class="header__nav-link link" href="#">О нас</a></li>
+          <li class="header__nav-item"><a class="header__nav-link link" href="#">Лаборатория</a></li>
+          <li class="header__nav-item"><a class="header__nav-link link" href="#">Проекты</a></li>
+          <li class="header__nav-item"><a class="header__nav-link link" href="#">Образование</a></li>
+          <li class="header__nav-item"><a class="header__nav-link link" href="#">Публикации</a></li>
+          <li class="header__nav-item"><a class="header__nav-link link" href="#">Команда</a></li>
+          <li class="header__nav-item"><a class="header__nav-link link" href="#">Связаться</a></li>
+        </ul>
+      </nav>
     </div>
     <div class="header__preview">
       <h1 class="header__title">Когнитивные технологии, машинное обучение</h1>
@@ -31,14 +33,18 @@
       <a href="#" class="header__link link">наши проекты</a>
     </div>
   </header>
+
   <main class="content">
     <h1>Hello!</h1>
   </main>
+
   <footer class="footer">
     <div class="footer__description">
       <img src="<%=require('./images/logos/footer_AILab.png')%>" alt="" class="footer__logo">
       <p class="footer__copyright">Информация &copy;&nbsp;2020 Университет ИТМО</p>
-      <p class="footer__text">Национальный центр когнитивных разработок&nbsp;&mdash; центр национальной технологической инициативы (НТИ), получивший государственную поддержку по&nbsp;направлению &laquo;Технологии машинного обучения и&nbsp;когнитивные технологии&raquo;. Инфраструктурная основа взаимодействия научных, образовательных и&nbsp;промышленных организаций</p>
+      <p class="footer__text">Национальный центр когнитивных разработок&nbsp;&mdash; центр национальной технологической инициативы (НТИ), получивший
+        государственную поддержку по&nbsp;направлению &laquo;Технологии машинного обучения и&nbsp;когнитивные технологии&raquo;. Инфраструктурная основа
+        взаимодействия научных, образовательных и&nbsp;промышленных организаций</p>
       <p class="footer__signature">Сделано студентами Яндекс.Практикума</p>
     </div>
     <div class="footer__navigation">
