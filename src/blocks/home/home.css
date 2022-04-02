@@ -1,3 +1,14 @@
 .home {
-  background-color: rgb(113, 183, 204);
+  font-family: 'OpenSans', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  color: #fff;
+  background-color: #001337;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  min-width: 320px;
+  max-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
 }
