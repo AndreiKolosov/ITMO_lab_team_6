@@ -1,3 +1,5 @@
 .home {
   background-color: rgb(113, 183, 204);
+  margin: 0 auto;
+  max-width: 1440px;
 }

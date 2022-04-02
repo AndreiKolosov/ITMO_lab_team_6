@@ -1,0 +1,9 @@
+.footer {
+    font-family: 'OpenSans';
+    color: #fff;
+    background-color: #001337;
+    max-width: 100%;
+    display: grid;
+    gap: 150px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
