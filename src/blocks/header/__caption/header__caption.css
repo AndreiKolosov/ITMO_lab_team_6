@@ -4,5 +4,6 @@
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.1px;
+  word-wrap: break-word;
   margin: 0 0 50px 0;
 }

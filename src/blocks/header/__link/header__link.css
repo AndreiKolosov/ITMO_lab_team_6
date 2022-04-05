@@ -5,6 +5,7 @@
   line-height: 30px;
   text-align: center;
   text-transform: uppercase;
+  word-wrap: break-word;
   display: block;
   width: 350px;
   border: 1px solid #fff;

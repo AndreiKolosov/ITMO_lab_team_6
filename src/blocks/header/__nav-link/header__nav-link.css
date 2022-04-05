@@ -4,9 +4,7 @@
   font-size: 14px;
   line-height: 19px;
   text-align: center;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+  word-wrap: break-word;
   display: block;
   width: 100px;
   max-height: 44px;
