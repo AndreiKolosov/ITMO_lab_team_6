@@ -1,13 +1,14 @@
 .header__preview {
-  max-width: 1440px;
-  width: 100%;
+  min-width: 320px;
+  /* width: 100%; */
+  width: 100vw;
   min-height: 1024px;
   margin: 0 auto;
-  padding: 0 165px;
+  padding: 0 11.6%;
   background-image: url(../../../images/Background.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: 0 0;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
