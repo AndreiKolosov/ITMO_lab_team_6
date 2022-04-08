@@ -188,6 +188,8 @@
       </div>
     </section>
     <h1>Hello!</h1>
+
+
     <section class="projects">
       <h2 class="projects__title">наши проекты</h2>
       <div class="projects__filter-container">
@@ -223,6 +225,18 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
       </div>
+    </section>
+    <section class="contact-us">
+      <h2 class="contact-us__title title">всегда НА СВЯЗИ</h2>
+      <p class="contact-us__subtitle subtitle">По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам, написать на почту или оставить свое сообщение через форму обратной связи. </p>
+      <form name="form" class="contact-us__form form"  aria-label="Форма обратной связи">
+        <input type="text" name="firstName" class="form__input" aria-label="Введите Ваше имя" placeholder="Имя" minlength="2" maxlength="15" required>
+        <input type="text" name="lastName" class="form__input" aria-label="Введите Вашу фамилию" placeholder="Фамилия" minlength="2" maxlength="15" required>
+        <textarea name="userMessage" class="form__textarea" aria-label="Введите Ваше сообщение" placeholder="Сообщение" minlength="10" maxlength="350" required></textarea>
+        <input type="tel" name="userPhone" class="form__input" aria-label="Введите Ваш телефон" placeholder="Телефон" maxlength="17" required>
+        <input type="email" name="userEmail" class="form__input" aria-label="Введите Ваш email" placeholder="E-mail" maxlength="35" required>
+        <button type="submit" class="form__button button" aria-label="Отправить форму">ОТПРАВИТЬ</button>
+      </form>
     </section>
   </main>
 
