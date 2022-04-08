@@ -1,0 +1,10 @@
+.lab-card__text-content{
+    padding: 0;
+    margin: 50px 0 0 0;
+    height: 110px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.1px;
+}

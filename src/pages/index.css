@@ -18,6 +18,24 @@
 
 @import url(../blocks/content/content.css);
 
+@import url(../blocks/laboratory/laboratory.css);
+@import url(../blocks/laboratory/__title/laboratory__title.css);
+@import url(../blocks/laboratory/__content/laboratory__content.css);
+@import url(../blocks/laboratory/__textcontent/laboratory__textcontent.css);
+@import url(../blocks/laboratory/__text/laboratory__text.css);
+@import url(../blocks/laboratory/__text/_selection/_bold/laboratory__text_selection_bold.css);
+@import url(../blocks/laboratory/__photos/laboratory__photos.css);
+@import url(../blocks/laboratory/__photo/laboratory__photo.css);
+@import url(../blocks/laboratory/__cards/laboratory__cards.css);
+
+@import url(../blocks/lab-card/lab-card.css);
+@import url(../blocks/lab-card/__title/lab-card__title.css);
+@import url(../blocks/lab-card/__ico/lab-card__ico.css);
+@import url(../blocks/lab-card/__text-content/lab-card__text-content.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_lab-card/button_lab-card.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__description/footer__description.css);
 @import url(../blocks/footer/__navigation/footer__navigation.css);
