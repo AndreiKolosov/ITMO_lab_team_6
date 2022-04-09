@@ -6,6 +6,8 @@
     line-height: 26px;
     letter-spacing: 0.1px;
     position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .laboratory__text:last-of-type::before{
