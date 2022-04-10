@@ -32,6 +32,9 @@
 @import url(../blocks/education/__image/education__image.css);
 @import url(../blocks/education/__buttons/education__buttons.css);
 @import url(../blocks/education/__button/education__button.css);
+@import url(../blocks/education/__button/_type/education__button_type_aspirantura.css);
+@import url(../blocks/education/__button/_type/education__button_type_magistratura.css);
+@import url(../blocks/education/__button/_active/education__button_active.css);
 
 
 @import url(../blocks/footer/footer.css);

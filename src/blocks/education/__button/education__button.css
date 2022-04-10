@@ -1,0 +1,23 @@
+.education__button {
+    width: 280px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #fff;
+    background-color:#009FAC;
+    border: 1px solid #E0F0FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    padding: inherit;
+}
+
+.education__button:hover {
+    cursor: pointer;
+}

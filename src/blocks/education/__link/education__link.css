@@ -8,4 +8,17 @@
     margin: 28px 0 0 0;
     display: flex;
     align-items: center;
+    
+}
+
+.education__link:hover {
+    text-decoration-line: underline;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+.education__link:active {
+    text-decoration-line: underline;
+    font-weight: 700;
+    letter-spacing: 0.1px;
 }
