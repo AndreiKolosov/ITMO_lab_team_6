@@ -214,7 +214,7 @@
           </ul>
           <a class="education__link" href="https://aspirantura.itmo.ru/?main=12">Подробнее &#8594;</a>
         </div>
-        <img src="<%=require('./images/study/magistr.png')%>" alt="Выпускники" class="education__image">
+        <img src="<%=require('./images/study/Magistr.png')%>" alt="Выпускники" class="education__image">
       </article>
       <div class="education__buttons">
         <button class="button education__button">аспирантура</button>
@@ -264,7 +264,7 @@
     </section>
 
     <section class="team">
-      <h2 class="team__title">НАША КОМАНДА</h2>
+      <h2 class="title team__title">НАША КОМАНДА</h2>
       <div class="team__slider-container">
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
@@ -328,6 +328,64 @@
         <!-- If we need navigation buttons -->          
         <div class="swiper-button-next"></div>
       </div>
+    </section>
+    <section class="work-with">
+      <h2 class="title">С КЕМ МЫ РАБОТАЕМ</h2>
+      <p class="paragraph">За время сотрудничества компания показала себя как надежный партнер, способный оперативно решать вопросы по внесению необходимых изменений.</p>
+      <p class="paragraph">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности.
+        Надеемся на дальнейшее и плодотворное сотрудничество.</p>
+      <ul class="work-with__logo-container list">
+        <li class="work-with__logos link">
+          <img src="<%=require('./images/logos/work-with_gazprom.svg')%>" alt="gazprom-logo" class="work-with__logo">
+        </li>
+        <li class="work-with__logos link">
+         <img src="<%=require('./images/logos/work-with_sberbank.svg')%>" alt="sberbank-logo" class="work-with__logo">
+        </li>
+        <li class="work-with__logos link">
+          <img src="<%=require('./images/logos/work-with_mail.svg')%>" alt="mail-logo" class="work-with__logo">
+        </li>
+        <li class="work-with__logos link">
+          <img src="<%=require('./images/logos/work-with_siemens.svg')%>" alt="siemens-logo" class="work-with__logo">
+        </li>
+        <li class="work-with__logos link">
+          <img src="<%=require('./images/logos/work-with_huawei.svg')%>" alt="huawei-logo" class="work-with__logo">
+        </li>
+        <li class="work-with__logos link">
+          <img src="<%=require('./images/logos/work-with_gazprom.svg')%>" alt="gazprom-logo" class="work-with__logo">
+        </li>
+        <li class="work-with__logos link">
+          <img src="<%=require('./images/logos/work-with_rosveft.svg')%>" alt="rosneft-logo" class="work-with__logo">
+        </li>
+        <li class="work-with__logos link">
+          <img src="<%=require('./images/logos/work-with_gazprom.svg')%>" alt="gazprom-logo" class="work-with__logo">
+        </li>
+        <li class="work-with__logos link">
+          <img src="<%=require('./images/logos/work-with_huawei.svg')%>" alt="huawei-logo" class="work-with__logo">
+        </li>
+        <li class="work-with__logos link">
+          <img src="<%=require('./images/logos/work-with_mail.svg')%>" alt="mail-logo" class="work-with__logo">
+        </li>
+      </ul>
+    </section>
+    <section class="always-in-touch">
+      <h2 class="title">ВСЕГДА НА СВЯЗИ</h2>
+      <p class="paragraph">
+        По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам, 
+        написать на почту или оставить свое сообщение через форму обратной связи.
+      </p>
+      <form class="form">
+        <input id="first-name" type="text" class="form__item" 
+          placeholder="Имя" required>
+        <input id="last-name" type="text" class="form__item" 
+          placeholder="Фамилия">
+        <input id="phone" type="tel" class="form__item" 
+          placeholder="Телефон">
+        <input id="email" type="email" class="form__item" 
+          placeholder="E-mail" required>
+        <textarea id="message" type="text" class="form__area" 
+          placeholder="Сообщение" required></textarea>
+      </form>
+      <button type="submit" class="form__submit-button">ОТПРАВИТЬ</button>
     </section>
   </main>
 
