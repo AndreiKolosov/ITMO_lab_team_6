@@ -1,0 +1,8 @@
+.laboratory__cards{
+    margin: 0 auto;
+    list-style: none;
+    max-width: 1110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
