@@ -1,0 +1,9 @@
+.laboratory__content {
+    margin: 0 auto;
+    padding: 60px 0 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1110px;
+}

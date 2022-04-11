@@ -40,7 +40,8 @@
 - Кирилл Черепанов [GitHub](https://github.com/insomniac-bear)
 - Мария Алемаскина [GitHub](https://github.com/Maria-Lem)
 - Евгений М [GitHub](https://github.com/harwUk-cedbyk-8qysze)
-- Андерй Колосов [GitHub](https://github.com/AndreiKolosov)
+- Андрей Колосов [GitHub](https://github.com/AndreiKolosov)
+- Антон Адуйский [GitHub](https://github.com/AntonAduisky)
 
 [Наверх](#top)
 
