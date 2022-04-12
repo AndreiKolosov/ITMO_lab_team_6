@@ -200,22 +200,22 @@
         <div class="education__text">
           <h3 class="education__list-title">Образовательные программы аспирантуры в области МО и КТ</h3>
           <ul class="education__list">
-            <li class="education__item">Прикладные технологии искусственного интеллекта;</li>
-            <li class="education__item">Машинное обучение и искусственный интеллект;</li>
-            <li class="education__item">Биометрические информационные системы;</li>
-            <li class="education__item">Речевые информационные системы;</li>
-            <li class="education__item">Когнитивные вычисления и квантовый интеллект;</li>
-            <li class="education__item">Большие данные и экстренные вычисления;</li>
-            <li class="education__item">Семантические системы и инженерия знаний;</li>
-            <li class="education__item">Технологии разработки компьютерных игр</li>
+            <li class="education__item"><span class="education__item-text">Прикладные технологии искусственного интеллекта;</span></li>
+            <li class="education__item"><span class="education__item-text">Машинное обучение и искусственный интеллект;</span></li>
+            <li class="education__item"><span class="education__item-text">Биометрические информационные системы;</span></li>
+            <li class="education__item"><span class="education__item-text">Речевые информационные системы;</span></li>
+            <li class="education__item"><span class="education__item-text">Когнитивные вычисления и квантовый интеллект;</span></li>
+            <li class="education__item"><span class="education__item-text">Большие данные и экстренные вычисления;</span></li>
+            <li class="education__item"><span class="education__item-text">Семантические системы и инженерия знаний;</span></li>
+            <li class="education__item"><span class="education__item-text">Технологии разработки компьютерных игр</span></li>
           </ul>
-          <a class="education__link" href="https://aspirantura.itmo.ru/?main=12">Подробнее &#8594;</a>
+          <a class="education__link" target="_blank" href="https://aspirantura.itmo.ru/?main=12">Подробнее <img src="<%=require('./images/arrow-right.svg')%>" alt="Стрелка вправо" class="education__arrow"></a>
         </div>
         <img src="<%=require('./images/study/Magistr.png')%>" alt="Выпускники" class="education__image">
       </article>
       <div class="education__buttons">
-        <button class="button education__button">аспирантура</button>
-        <button class="button education__button">магистратура</button>
+        <button class="button education__button education__button_type_aspirantura" id="aspirantura">аспирантура</button>
+        <button class="button education__button education__button_type_magistratura" id="magistratura">магистратура</button>
       </div>
     </section>
     <section class="projects">
