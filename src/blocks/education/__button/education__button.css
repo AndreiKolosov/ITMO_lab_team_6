@@ -16,6 +16,9 @@
     position: absolute;
     top: 0;
     padding: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 }
 
 .education__button:hover {
