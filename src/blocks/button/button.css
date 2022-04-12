@@ -1,0 +1,29 @@
+.button{
+    width: 100%;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #001337;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 40px;
+    text-decoration: none;
+    color: #001337;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lab-card:hover .button{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.lab-card:hover .button:active{
+    background-color: #ffffff;
+    color: #009FAC;
+}
+
+/* Пока все стили для кнопки здесь, но какие-то можно будет перенести в _lab-card при надобности */

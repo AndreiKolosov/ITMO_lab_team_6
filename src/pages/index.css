@@ -7,6 +7,10 @@
 @import url(../blocks/list/list.css);
 @import url(../blocks/link/link.css);
 
+@import url(../blocks/swiper/swiper.css);
+@import url(../blocks/swiper/swiper-button-prev/swiper-button-prev.css);
+@import url(../blocks/swiper/swiper-button-next/swiper-button-next.css);
+
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__main-panel/header__main-panel.css);
@@ -15,6 +19,10 @@
 @import url(../blocks/header/__nav-item/header__nav-item.css);
 @import url(../blocks/header/__nav-link/header__nav-link.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__preview/header__preview.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__text-accent/header__text-accent.css);
+@import url(../blocks/header/__caption/header__caption.css);
 
 @import url(../blocks/content/content.css);
 
@@ -36,6 +44,32 @@
 @import url(../blocks/education/__button/_type/education__button_type_magistratura.css);
 @import url(../blocks/education/__button/_active/education__button_active.css);
 
+/* Laboratory */
+@import url(../blocks/laboratory/laboratory.css);
+@import url(../blocks/laboratory/__title/laboratory__title.css);
+@import url(../blocks/laboratory/__content/laboratory__content.css);
+@import url(../blocks/laboratory/__textcontent/laboratory__textcontent.css);
+@import url(../blocks/laboratory/__text/laboratory__text.css);
+@import url(../blocks/laboratory/__text/_selection/_bold/laboratory__text_selection_bold.css);
+@import url(../blocks/laboratory/__photos/laboratory__photos.css);
+@import url(../blocks/laboratory/__photo/laboratory__photo.css);
+@import url(../blocks/laboratory/__cards/laboratory__cards.css);
+
+@import url(../blocks/lab-card/lab-card.css);
+@import url(../blocks/lab-card/__title/lab-card__title.css);
+@import url(../blocks/lab-card/__ico/lab-card__ico.css);
+@import url(../blocks/lab-card/__text-content/lab-card__text-content.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_lab-card/button_lab-card.css);
+
+/* Projects */
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__slider/projects__slider.css);
+@import url(../blocks/projects/__slids-list/projects__slids-list.css);
+@import url(../blocks/projects/__filter-container/projects__filter-container.css);
+@import url(../blocks/projects/__filter/projects__filter.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__description/footer__description.css);
