@@ -1,0 +1,7 @@
+.team__button-next {
+    background-image: url('../../../images/buttons/arrow-right.svg');
+    background-size: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}

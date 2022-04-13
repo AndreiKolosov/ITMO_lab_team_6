@@ -1,0 +1,14 @@
+.team {
+    padding: 0 90px 95px;
+    background: linear-gradient(#e0f0ff 43%, #001337 40%);
+    /* transform: translateY(); */
+    color: #001337;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+    .team {
+        padding: 60px 40px;
+        background: linear-gradient(#e0f0ff 50%, #001337 50%);
+    }
+}
