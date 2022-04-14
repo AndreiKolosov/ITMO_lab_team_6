@@ -1,0 +1,24 @@
+.education__link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000D26;
+    text-decoration: none;
+    margin: 28px 0 0 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.education__link:hover {
+    text-decoration-line: underline;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+.education__link:active {
+    text-decoration-line: underline;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}

@@ -1,0 +1,13 @@
+.education__header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 68px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    max-width: 83%;
+    word-wrap: break-word;
+}
