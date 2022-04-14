@@ -67,7 +67,7 @@
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__title/projects__title.css);
 @import url(../blocks/projects/__slider/projects__slider.css);
-@import url(../blocks/projects/__slids-list/projects__slids-list.css);
+@import url(../blocks/projects/__slider-wrapper/projects__slider-wrapper.css);
 @import url(../blocks/projects/__filter-container/projects__filter-container.css);
 @import url(../blocks/projects/__filter/projects__filter.css);
 
