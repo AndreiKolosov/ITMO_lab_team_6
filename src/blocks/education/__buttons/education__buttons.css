@@ -1,0 +1,7 @@
+.education__buttons {
+    margin: 35px auto 0;
+    width: 540px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}

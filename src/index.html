@@ -198,18 +198,18 @@
         <p class="projects__filter">в разработке</p>
       </div>
       <!-- Slider main container -->
-      <div class="swiper projects__slider">
+      <div class="swiper">
         <!-- Additional required wrapper -->
-        <ul class="swiper-wrapper projects__slider-wrapper list">
+        <ul class="swiper-wrapper list">
           <!-- Slides -->
-          <li class="swiper-slide projects__card">
+          <li class="projects__card">
             <img class="projects__card-logo" src="<%=require('./images/projects/gazprom-logo.svg')%>" alt="Логотип Газпром">
             <p class="projects__card-description">Направление включает
               в себя исследования
               и разработки технологий МО и КТ.</p>
             <a href="" class="projects__card-link link">Подробнее </a>
           </li>
-          <li class="swiper-slide projects__card">
+          <li class="projects__card">
             <img class="projects__card-logo" src="<%=require('./images/projects/sberbank-logo.svg')%>" alt="Логотип Сбербанк">
             <p class="projects__card-description">Направление включает
               в себя исследования
@@ -218,11 +218,11 @@
           </li>
         </ul>
         <!-- If we need pagination -->
-        <!-- <div class="swiper-pagination"></div> -->
+        <div class="swiper-pagination"></div>
 
         <!-- If we need navigation buttons -->
-        <!-- <div class="swiper-button-prev"></div> -->
-        <!-- <div class="swiper-button-next"></div> -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
     </section>
     <section class="education">
@@ -254,6 +254,8 @@
         <button class="button education__button">магистратура</button>
       </div>
     </section>
+    
+
     <section class="team">
       <h2 class="title team__title">НАША КОМАНДА</h2>
       <div class="team__slider-container">
