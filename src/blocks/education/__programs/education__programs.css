@@ -1,0 +1,12 @@
+.education__programs {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 60px auto 0;
+    width: 1169px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    box-sizing: border-box;
+}

@@ -1,0 +1,6 @@
+.education__button_active {
+    background-color: #fff;
+    color: #000D26;
+    font-weight: 600;
+    z-index: 2;
+}
