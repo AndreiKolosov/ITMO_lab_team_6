@@ -33,7 +33,7 @@ export const teamSwiper = new Swiper('.team__slide-container', {
 	},
 
 	autoplay: {
-delay:1250,
+delay:2400,
 stopOnLastSlide:true,
 disableOnInteraction:false,
 	},

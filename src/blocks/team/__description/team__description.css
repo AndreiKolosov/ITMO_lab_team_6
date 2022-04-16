@@ -5,4 +5,7 @@
     line-height: 19px;
     color: #009fac;
     padding-top: 4px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
