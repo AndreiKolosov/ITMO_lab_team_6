@@ -7,6 +7,9 @@
 @import url(../blocks/list/list.css);
 @import url(../blocks/link/link.css);
 
+/*title/subtitle*/
+@import url(../blocks/title/title.css);
+
 @import url(../blocks/swiper/swiper.css);
 @import url(../blocks/swiper/swiper-button-prev/swiper-button-prev.css);
 @import url(../blocks/swiper/swiper-button-next/swiper-button-next.css);
@@ -70,6 +73,22 @@
 @import url(../blocks/projects/__slider-wrapper/projects__slider-wrapper.css);
 @import url(../blocks/projects/__filter-container/projects__filter-container.css);
 @import url(../blocks/projects/__filter/projects__filter.css);
+
+/*Team*/
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__title/team__title.css);
+@import url(../blocks/team/__slider-container/team__slider-container.css);
+@import url(../blocks/team/__slide-container/team__slide-container.css);
+@import url(../blocks/team/__slide/team__slide.css);
+@import url(../blocks/team/__button/team__button.css);
+@import url(../blocks/team/__button-prev/team__button-prev.css);
+@import url(../blocks/team/__button-next/team__button-next.css);
+@import url(../blocks/team/__photo/team__photo.css);
+@import url(../blocks/team/__name/team__name.css);
+@import url(../blocks/team/__surname/team__surname.css);
+@import url(../blocks/team/__description/team__description.css);
+@import url(../blocks/team/__pagination/team__pagination.css);
+
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__description/footer__description.css);

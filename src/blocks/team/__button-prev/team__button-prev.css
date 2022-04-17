@@ -1,0 +1,7 @@
+.team__button-prev {
+    background-image: url('../../../images/buttons/arrow-left.svg');
+    background-size: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}

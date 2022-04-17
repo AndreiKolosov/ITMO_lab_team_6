@@ -203,14 +203,16 @@
         <ul class="swiper-wrapper list">
           <!-- Slides -->
           <li class="projects__card">
-            <img class="projects__card-logo" src="<%=require('./images/projects/gazprom-logo.svg')%>" alt="Логотип Газпром">
+            <img class="projects__card-logo" src="<%=require('./images/projects/gazprom-logo.svg')%>"
+              alt="Логотип Газпром">
             <p class="projects__card-description">Направление включает
               в себя исследования
               и разработки технологий МО и КТ.</p>
             <a href="" class="projects__card-link link">Подробнее </a>
           </li>
           <li class="projects__card">
-            <img class="projects__card-logo" src="<%=require('./images/projects/sberbank-logo.svg')%>" alt="Логотип Сбербанк">
+            <img class="projects__card-logo" src="<%=require('./images/projects/sberbank-logo.svg')%>"
+              alt="Логотип Сбербанк">
             <p class="projects__card-description">Направление включает
               в себя исследования
               и разработки технологий МО и КТ.</p>
@@ -254,8 +256,6 @@
         <button class="education__button education__button_type_magistratura" id="magistratura">магистратура</button>
       </div>
     </section>
-    
-
     <section class="publication">
       <h2 class="title publication__title">ПУБЛИКАЦИИ</h2>
       <!-- Slider main container -->
@@ -528,71 +528,77 @@
         <div class="swiper-pagination"></div>
       </div>
     </section>
-    
     <section class="team">
       <h2 class="title team__title">НАША КОМАНДА</h2>
-      <div class="team__slider-container">
+      <div class="team__slider-container swiper-container">
         <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
+        <div class="team__button team__button-prev swiper-button-prev"></div>
         <!-- Slider main container -->
-        <div class="swiper">
+        <div class="team__slide-container swiper">
           <!-- Additional required wrapper -->
           <ul class="swiper-wrapper list">
             <!-- Slide -->
-            <li class="swiper-slide link">
-              <img src="./images/team/man photo.png" alt="Бобцов Алексей Алексеевич" class="team__photo" />
-              <h3 class="team__card-surname">Бобцов</h3>
-              <h3 class="team__card-name">Алексей Алексеевич</h3>
-              <span class="team__card-description">Директор, профессор, ДТН</span>
+            <li class="team__slide swiper-slide link">
+              <img src="<%=require('./images/team/man photo.png')%>" alt="Бобцов Алексей Алексеевич"
+                class="team__photo" />
+              <h3 class="team__surname">Бобцов</h3>
+              <h3 class="team__name">Алексей Алексеевич</h3>
+              <span class="team__description">Директор, профессор, ДТН</span>
             </li>
             <!-- Slide -->
-            <li class="swiper-slide link">
-              <img src="./images/team/man photo-1.png" alt="Буханоский Александр Валерьевич" class="team__photo" />
-              <h3 class="team__card-surname">Буханоский</h3>
-              <h3 class="team__card-name">Александр Валерьевич</h3>
-              <span class="team__card-description">Директор, руководитель, ДТН</span>
+            <li class="team__slide swiper-slide link">
+              <img src="<%=require('./images/team/man photo-1.png')%>" alt="Буханоский Александр Валерьевич"
+                class="team__photo" />
+              <h3 class="team__surname">Буханоский</h3>
+              <h3 class="team__name">Александр Валерьевич</h3>
+              <span class="team__description">Директор, руководитель, ДТН</span>
             </li>
             <!-- Slide -->
-            <li class="swiper-slide link">
-              <img src="./images/team/man photo-2.png" alt="Муромцев Дмитрий Ильич" class="team__photo" />
-              <h3 class="team__card-surname">Муромцев</h3>
-              <h3 class="team__card-name">Дмитрий Ильич</h3>
-              <span class="team__card-description">Руководитель, доцент, КТН</span>
+            <li class="team__slide swiper-slide link">
+              <img src="<%=require('./images/team/man photo-2.png')%>" alt="Муромцев Дмитрий Ильич"
+                class="team__photo" />
+              <h3 class="team__surname">Муромцев</h3>
+              <h3 class="team__name">Дмитрий Ильич</h3>
+              <span class="team__description">Руководитель, доцент, КТН</span>
             </li>
             <!-- Slide -->
-            <li class="swiper-slide link">
-              <img src="./images/team/man photo-3.png" alt="Матвеев Юрий Николаевич" class="team__photo" />
-              <h3 class="team__card-surname">Матвеев</h3>
-              <h3 class="team__card-name">Юрий Николаевич</h3>
-              <span class="team__card-description">Руководитель, профессор, ДТН</span>
+            <li class="team__slide swiper-slide link">
+              <img src="<%=require('./images/team/man photo-3.png')%>" alt="Матвеев Юрий Николаевич"
+                class="team__photo" />
+              <h3 class="team__surname">Матвеев</h3>
+              <h3 class="team__name">Юрий Николаевич</h3>
+              <span class="team__description">Руководитель, профессор, ДТН</span>
             </li>
             <!-- Slide -->
-            <li class="swiper-slide link">
-              <img src="./images/team/man photo-4.png" alt="Шалыто Анатолий Абрамович" class="team__photo" />
-              <h3 class="team__card-surname">Шалыто</h3>
-              <h3 class="team__card-name">Анатолий Абрамович</h3>
-              <span class="team__card-description">Профессор, ДТН</span>
+            <li class="team__slide swiper-slide link">
+              <img src="<%=require('./images/team/man photo-4.png')%>" alt="Шалыто Анатолий Абрамович"
+                class="team__photo" />
+              <h3 class="team__surname">Шалыто</h3>
+              <h3 class="team__name">Анатолий Абрамович</h3>
+              <span class="team__description">Профессор, ДТН</span>
             </li>
             <!-- Slide -->
-            <li class="swiper-slide link">
-              <img src="./images/team/man photo-5.png" alt="Колюбин Сергей Алексеевич" class="team__photo" />
-              <h3 class="team__card-surname">Колюбин</h3>
-              <h3 class="team__card-name">Сергей Алексеевич</h3>
-              <span class="team__card-description">Начальник, профессор, ДТН</span>
+            <li class="team__slide swiper-slide link">
+              <img src="<%=require('./images/team/man photo-5.png')%>" alt="Колюбин Сергей Алексеевич"
+                class="team__photo" />
+              <h3 class="team__surname">Колюбин</h3>
+              <h3 class="team__name">Сергей Алексеевич</h3>
+              <span class="team__description">Начальник, профессор, ДТН</span>
             </li>
             <!-- Slide -->
-            <li class="swiper-slide link">
-              <img src="./images/Team/man photo-6.png" alt="Пыркин Антон Александрович" class="team__photo" />
-              <h3 class="team__card-surname">Пыркин</h3>
-              <h3 class="team__card-name">Антон Александрович</h3>
-              <span class="team__card-description">Декан, профессор, ДТН</span>
+            <li class="team__slide swiper-slide link">
+              <img src="<%=require('./images/team/man photo-6.png')%>" alt="Пыркин Антон Александрович"
+                class="team__photo" />
+              <h3 class="team__surname">Пыркин</h3>
+              <h3 class="team__name">Антон Александрович</h3>
+              <span class="team__description">Декан, профессор, ДТН</span>
             </li>
           </ul>
           <!-- If we need navigation buttons -->
-          <div class="swiper-pagination"></div>
+          <div class="team__pagination swiper-pagination"></div>
         </div>
         <!-- If we need navigation buttons -->
-        <div class="swiper-button-next"></div>
+        <div class="team__button team__button-next swiper-button-next"></div>
       </div>
     </section>
     <section class="work-with">
@@ -624,7 +630,7 @@
           <img src="<%=require('./images/logos/work-with_gazprom.svg')%>" alt="gazprom-logo" class="work-with__logo">
         </li>
         <li class="work-with__logos link">
-          <img src="<%=require('./images/logos/work-with_rosveft.svg')%>" alt="rosneft-logo" class="work-with__logo">
+          <img src="<%=require('./images/logos/work-with_rosneft.svg')%>" alt="rosneft-logo" class="work-with__logo">
         </li>
         <li class="work-with__logos link">
           <img src="<%=require('./images/logos/work-with_gazprom.svg')%>" alt="gazprom-logo" class="work-with__logo">
@@ -741,6 +747,7 @@
     </div>
 
   </div>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
 </html>

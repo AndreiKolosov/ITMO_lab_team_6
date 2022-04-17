@@ -1,0 +1,13 @@
+.team {
+    padding: 0 90px 95px;
+    transform: translateY(-300px);
+    color: #001337;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+    .team {
+        padding: 60px 40px;
+        transform: translateY(-400px);
+    }
+}

@@ -1,0 +1,16 @@
+.team__pagination {
+    position: relative;
+    margin-top: 26px;
+}
+
+.swiper-pagination-bullet {
+    background: #fff;
+    width: 8px;
+    height: 8px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff;
+    width: 10px;
+    height: 10px;
+}

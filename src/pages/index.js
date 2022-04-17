@@ -1,3 +1,8 @@
+
+
+import{teamSwiper} from '../components/sliders.js';
+
+
 import '../pages/index.css';
 import aspirantImage from '../images/study/Aspirant.png';
 import magistrImage from '../images/study/Magistr.png';
@@ -24,3 +29,4 @@ function activateEducationButton(e) {
 
 aspiranturaBtn.addEventListener('click', activateEducationButton);
 magistraturaBtn.addEventListener('click', activateEducationButton);
+
